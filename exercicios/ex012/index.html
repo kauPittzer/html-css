@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Exibição de Vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="500" poster="imagens/thumbnailvitrola.png" controls autoplay loop>
+        <source src="midia/vitrolavideo.mp4" type="video/mp4">
+        <source src="midia/vitrolavideo-002.m4v" type="video/m4v">
+        <source src="midia/vitrolavideo-003.webm" type="video/webm">
+        <source src="midia/vitrolavideo-004.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+        <a href="midia/vitrolavideo-002.m4v" download="vitrolavideo-002.m4v">Clique aqui para baixar o vídeo</a>
+    </video>
+
+    <h1>Exibição de Vídeos hospedados externamente</h1>
+    <p>Este vídeo está hospedado no Youtube.</p>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3hng-hmSv2Y?si=5JAdtUdejFbqyiC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <p>Este vídeo está hospedado no Vimeo</p>
+    <iframe src="https://player.vimeo.com/video/926252508?h=920fbb2813&autoplay=1&byline=0&portrait=0" width="560" height="296" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
