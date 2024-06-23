@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+        div.quadrados{
+            display: inline-block;
+            border: 4px solid black;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: gray;
+        }
+        div#q1{
+            background-color: skyblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to top, black, white);
+        }
+        div#q3{
+            background-image: url(midia/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrados" id="q1">
+
+    </div>
+    <div class="quadrados" id="q2">
+
+    </div>
+    <div class="quadrados" id="q3">
+
+    </div>
+</body>
+</html>
