@@ -47,21 +47,36 @@ section{
     padding-left: 30px;
     font-size: 3.2vw;
 }
+section p{
+    padding-bottom: 1em;
+}
 section.normal{
     background-color: white;
     color: black;
 }
-section.img-transparent p{
+section.img-transparent{
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(26, 26, 26, 0.521);
+}
+section.img-transparent p{
+    text-shadow: 1px 1px 0px black;
     background-color: rgba(0, 0, 0, 0.397);
     display: inline-block;
     padding: 5px;
+}
+section#joaninha{
+    background: black url(../imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+section#folha{
+    background: black url(../imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
 }
 
 footer{
     text-align: center;
     background-color: black;
     padding: 10px;
-    font-size: 1.4em;
+    font-size: 1.2vw;
     color: white;
 }
