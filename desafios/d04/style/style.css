@@ -3,32 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-*{
-    padding: 0px;
-    margin: 0px;
-}
 body{
 
-}
-header{
-    font-family: 'Passion One', sans-serif;
-    font-weight: normal;
-    color: white;
-    text-align: center;
-    font-size: 90px;
-    background-color: black;
-    height: 300px;
-    padding-top: 80px;
-}
-header p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-header a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-header a:hover{
-    text-decoration: underline;
 }
