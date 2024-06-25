@@ -11,15 +11,28 @@ table{
     height: 90px;
     border-collapse: collapse;
 }
+caption{
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+}
 td, th{
     padding: 10px;
     border: 1px solid black;
-    text-align: center;
+    text-align: left;
 }
 td.number{
     text-align: right;
 }
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
 thead, tfoot{
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(59, 59, 59);
     color: white;
 }
