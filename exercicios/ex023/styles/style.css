@@ -5,7 +5,7 @@ body{
 }
 thead th{
     position: sticky;
-    top: -1 px;
+    top: -1px;
     background-color: rgb(59, 59, 59);
 }
 table{
