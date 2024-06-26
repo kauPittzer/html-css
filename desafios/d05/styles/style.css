@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+table{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border-collapse: collapse;
+    text-align: center;
+    left: 200px;
+    top: 100px;
+}
+td.material-work{
+    text-align: left;
+}
+th{
+    background-color: gray;
+    color: white;
+}
+th.mode-class{
+    background-color: white;
+    color: black;
+}
+td, th{
+    padding: 10px;
+    border: 1.4px solid black;
+}
