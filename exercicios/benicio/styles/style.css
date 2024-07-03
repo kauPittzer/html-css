@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#viado {
+    height: 10000px;
+}
+div#cachorro {
+    height: 1000px;
+    background: black url(../media/foto002.png) no-repeat center center;
+    background-size: cover;
+}
+div#barbabranca {
+    height: 2000px;
+    background: black url(../media/foto003.jpg) no-repeat center center;
+    background-size: cover;
+}
+div#saygex {
+    height: 500px;
+    background: black url(../media/foto001.png) no-repeat center center;
+    background-size: cover;
+}
