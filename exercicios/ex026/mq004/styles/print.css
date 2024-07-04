@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*MIDIA: IMPRESSORA*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    border: 2px solid black;
+}
+main h1 {
+    text-shadow: none;
+    color: black;
+}
+main:after {
+    content: 'ESTA IMPRESSÃO FOI FEITA ATRÁVES DO SITE WWW.KAU.COM';
+    text-decoration: overline;
+    font-size: 19px;
+}
+
+img#media-phone {display: none;}
+img#media-print {display: block;}       
